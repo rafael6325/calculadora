@@ -44,6 +44,7 @@ limpa()
   enquanto (op != '+' ou "-" ou "x" ou ":") {
     escreva ("A opção digitada não está de acordo com nosso menu. Escolha uma opção valida! \n")
     leia(op)
+    limpa()
   } 
 
   se (op == '+') {
